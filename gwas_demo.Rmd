@@ -1,0 +1,32 @@
+---
+title: "gwas_demo"
+author: "ak5357"
+date: "2024-09-27"
+output: html_document
+---
+
+```{r setup, echo = FALSE, eval=FALSE}
+install.packages("rrBLUP")
+install.packages("BGLR")
+install.packages("DT")
+install.packages("SNPRelate")
+install.packages("dplyr")
+install.packages("qqman")
+install.packages("poolr")
+```
+
+
+```{r setup, include=FALSE}
+library(rrBLUP)
+library(BGLR)
+library(DT)
+library(SNPRelate)
+library(dplyr)
+library(qqman)
+library(poolR)
+```
+
+
+
+
+
